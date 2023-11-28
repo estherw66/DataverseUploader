@@ -1,0 +1,11 @@
+{
+    "name": "Test Collection -- Classification",
+    "alias": "test-collection-classification",
+    "dataverseContacts": [
+        {
+            "contactEmail": "test@mail.com"
+        }
+    ],
+    "description": "Test collection for datasets for classification",
+    "dataverseType": "UNCATEGORIZED"
+}

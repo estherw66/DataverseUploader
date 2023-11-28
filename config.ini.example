@@ -1,0 +1,4 @@
+[config]
+server_url = https://demo.dataverse.nl
+api_key = my_api_key
+parent_collection = my_collection

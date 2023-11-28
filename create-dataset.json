@@ -1,0 +1,89 @@
+{
+    "datasetVersion": {
+        "metadataBlocks": {
+            "citation": {
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Classification 1"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Name, Author"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Author Affiliation"
+                                }
+                            }
+                        ]
+
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Name, Author"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Author Affiliation"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "testcontact@mail.com"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Test dataset for classification"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Other"
+                        ]
+                    }
+                ],
+                "displayName": "Citation Metadata"
+            }
+        }
+    }
+}
