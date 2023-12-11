@@ -31,6 +31,7 @@ def assert_tabular_dataset(path):
 
 def assert_classification_dataset(path):
     items = os.listdir(path)
+    items = [item for item in items if item != '.DS_Store']
     subfolders = [item for item in items if os.path.isdir(os.path.join(path, item)) and os.listdir(os.path.join(path, item))]
     assert len(subfolders) == len(items), "Classification dataset assertion failed: " + path + " must contain only non-empty folders."
 
