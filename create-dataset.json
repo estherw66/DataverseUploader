@@ -7,7 +7,7 @@
                         "typeName": "title",
                         "multiple": false,
                         "typeClass": "primitive",
-                        "value": "Classification 1"
+                        "value": "%NAME%"
                     },
                     {
                         "typeName": "author",
@@ -19,13 +19,13 @@
                                     "typeName": "authorName",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "Name, Author"
+                                    "value": "%AUTHOR%"
                                 },
                                 "authorAffiliation": {
                                     "typeName": "authorAffiliation",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "Author Affiliation"
+                                    "value": "%AFFILIATION%"
                                 }
                             }
                         ]
@@ -41,19 +41,19 @@
                                     "typeName": "datasetContactName",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "Name, Author"
+                                    "value": "%AUTHOR%"
                                 },
                                 "datasetContactAffiliation": {
                                     "typeName": "datasetContactAffiliation",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "Author Affiliation"
+                                    "value": "%AFFILIATION%"
                                 },
                                 "datasetContactEmail": {
                                     "typeName": "datasetContactEmail",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "testcontact@mail.com"
+                                    "value": "%EMAIL%"
                                 }
                             }
                         ]
@@ -68,7 +68,7 @@
                                     "typeName": "dsDescriptionValue",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "Test dataset for classification"
+                                    "value": "%DESCRIPTION%"
                                 }
                             }
                         ]
